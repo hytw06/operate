@@ -22,6 +22,11 @@ public class Operate extends ChaincodeBase {
     private static Log _logger = LogFactory.getLog(Operate.class);
 
     @Override
+    /**
+     * ChaincodeStub stub
+     * An object which manages the transaction context, provides access to state variables,
+     * and supports calls to other chaincode implementations.
+     */
     public Response init(ChaincodeStub stub) {
         _logger.info("Init chaincode operate.");
         return newSuccessResponse();
