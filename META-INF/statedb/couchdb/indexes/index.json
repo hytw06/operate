@@ -1,10 +1,10 @@
 {
   "index": {
-    "fields": [	//索引的列
+    "fields": [
       "productBatch"
     ]
   },
-  "ddoc": "operateIndexDoc",	//索引文档名，可自定义
-  "name": "operateIndex",	//索引名，可自定义
+  "ddoc": "operateIndexDoc",
+  "name": "operateIndex",
   "type": "json"
 }
